@@ -58,6 +58,18 @@ class MainMenu extends Phaser.Scene
         this.imageObject = this.add.image(
             900,//x
             500,
+            'start',//imagename
+        )
+
+        this.imageObject = this.add.image(
+            900,//x
+            500,
+            'options',//imagename
+        )
+
+        this.imageObject = this.add.image(
+            900,//x
+            500,
             'title',//imagename
         )
         this.imageObject.scale = 1;
